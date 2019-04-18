@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { ChevronRightIcon } from 'mdi-react'
-import Input from '@components/input'
+import Input from './input'
 import styled from 'styled-components'
 import Wrapper from './wrapper'
 

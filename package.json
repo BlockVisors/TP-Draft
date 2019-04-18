@@ -1,11 +1,12 @@
 {
-  "name": "next-portfolio",
+  "name": "TokenProp",
   "version": "1.0.0",
   "description": "",
   "author": "Dameon Green",
   "main": "index.js",
   "scripts": {
     "dev": "next",
+    "start": "now-start",
     "build": "next build",
     "export": "next export",
     "deploy": "cd out && now --public"
@@ -19,13 +20,18 @@
     "codemirror": "^5.40.2",
     "cross-fetch": "^2.2.2",
     "debounce": "^1.2.0",
+    "isomorphic-unfetch": "^3.0.0",
     "jsonp": "^0.2.1",
     "ky": "^0.4.0",
     "lazysizes": "^4.1.3",
     "lru-cache": "^4.1.3",
     "mdi-react": "^4.4.0",
+    "next": "^8.0.3",
     "next-images": "^1.0.1",
     "next-optimized-images": "^1.4.1",
+    "now": "^15.0.5",
+    "nprogress": "^0.2.0",
+    "preact": "^8.4.2",
     "react": "^16.8.1",
     "react-codemirror2": "^5.1.0",
     "react-dom": "^16.8.1",
@@ -48,11 +54,7 @@
     "svg-inline-react": "^3.1.0",
     "textversionjs": "^1.1.2",
     "to-querystring": "^1.0.4",
-    "xml2js": "^0.4.19",
-    "isomorphic-unfetch": "^3.0.0",
-    "next": "^8.0.3",
-    "nprogress": "^0.2.0",
-    "preact": "^8.4.2"
+    "xml2js": "^0.4.19"
   },
   "devDependencies": {
     "@babel/core": "7.1.2",

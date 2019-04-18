@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import { Logo, LogoType } from '@components/svgs'
-import NewsletterSignup from '@components/newsletter-signup'
-import { bslinks } from '@common'
+//import { Logo, LogoType } from 'components/svgs'
+import NewsletterSignup from './NewsletterSignup.js'
+//import { bslinks } from './common'
 
 class Footer extends Component {
   render() {

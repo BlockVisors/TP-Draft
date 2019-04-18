@@ -2,6 +2,7 @@ import Link from "next/link";
 import Head from "next/head";
 import Router from "next/router";
 import NProgress from "nprogress";
+//import Footer from "./Footer";
 
 Router.onRouteChangeStart = url => {
   console.log(url);
@@ -18,22 +19,22 @@ export default ({ children, title }) => (
     </Head>
     <header>
       <Link href="/">
-        <a>Home</a>
+        <a>Token Prop</a>
       </Link>
       <Link href="/about">
         <a>About</a>
       </Link>
-      <Link href="/Token Sale">
-        <a>Hire Me</a>
+      <Link href="/token-sale">
+        <a> Token Sale</a>
       </Link>
       <Link href="/blog">
         <a>Blog</a>
       </Link>
-      <Link href="/TIP">
-        <a>Hire Me</a>
+      <Link href="/tip">
+        <a>TIP</a>
       </Link>
-      <Link href="/PropX">
-        <a>Blog</a>
+      <Link href="/propx">
+        <a>PropX</a>
       </Link>
     </header>
 
@@ -41,6 +42,7 @@ export default ({ children, title }) => (
     {children}
 
     <footer>&copy; {new Date().getFullYear()}</footer>
+    
     <style jsx>{`
       .root {
         display: flex;
