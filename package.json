@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "start": "now-start",
+    "start": "next-start",
     "build": "next build",
     "export": "next export",
     "deploy": "cd out && now --public"
@@ -51,6 +51,7 @@
     "shevyjs": "^1.1.0",
     "striptags": "^3.1.1",
     "styled-components": "^4.0.0-beta.9",
+    "styled-system": "^4.1.0",
     "svg-inline-react": "^3.1.0",
     "textversionjs": "^1.1.2",
     "to-querystring": "^1.0.4",
